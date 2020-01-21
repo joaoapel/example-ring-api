@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1ec8150-0c42-468e-b412-9991b89680df" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ProjectId" id="1WgM4pmA55O564ZdssTCfrUPRoE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ReplState" timestamp="1579569141510">{:repl-history {:ide [], :local [{:command &quot;(defn handler \&quot;request-response\&quot;\n  [req]\n  {:status 200\n   :headers {\&quot;Content-Type\&quot; \&quot;text/plain; charset=UTF-8\&quot;}\n   :body \&quot;First Ring application\&quot;}\n  )&quot;, :offset 151, :ns &quot;core&quot;} {:command &quot;(run-jetty handler {:port 3000\n                    :join? false})&quot;, :offset 65, :ns &quot;core&quot;} {:command &quot;(defn handler \&quot;request-response\&quot;\n  [req]\n  {:status 200\n   :headers {\&quot;Content-Type\&quot; \&quot;text/plain; charset=UTF-8\&quot;}\n   :body \&quot;First Ring application! Update\&quot;}\n  )&quot;, :offset 159, :ns &quot;core&quot;} {:command &quot;(defn handler \&quot;request-response\&quot;\n  [req]\n  {:status 200\n   :headers {\&quot;Content-Type\&quot; \&quot;text/plain; charset=UTF-8\&quot;}\n   :body \&quot;First Ring application! Update!\&quot;}\n  )&quot;, :offset 160, :ns &quot;core&quot;} {:command &quot;(defn handler \&quot;request-response\&quot;\n  [req]\n  {:status 200\n   :headers {\&quot;Content-Type\&quot; \&quot;text/plain; charset=UTF-8\&quot;}\n   :body \&quot;First Ring application! Update!!\&quot;}\n  )&quot;, :offset 161, :ns &quot;core&quot;} {:command &quot;(defonce handler \&quot;request-response\&quot;\n  [req]\n  {:status 200\n   :headers {\&quot;Content-Type\&quot; \&quot;text/plain; charset=UTF-8\&quot;}\n   :body \&quot;First Ring application! Update!!!\&quot;}\n  )&quot;, :offset 165, :ns &quot;core&quot;} {:command &quot;(run-jetty #'handler {:port 3000\n                    :join? false})&quot;, :offset 67, :ns &quot;core&quot;} {:command &quot;(ns core\n  (:require [ring.adapter.jetty :refer [run-jetty]]))&quot;, :offset 62, :ns &quot;core&quot;} {:command &quot;(defn handler \&quot;request-response\&quot;\n  [req]\n  {:status 200\n   :headers {\&quot;Content-Type\&quot; \&quot;text/plain; charset=UTF-8\&quot;}\n   :body \&quot;First Ring application! Update!!!\&quot;}\n  )&quot;, :offset 162, :ns &quot;core&quot;} {:command &quot;(defn handler \&quot;request-response\&quot;\n  [req]\n  {:status 200\n   :headers {\&quot;Content-Type\&quot; \&quot;text/plain; charset=UTF-8\&quot;}\n   :body \&quot;First Ring application! Update!!!!\&quot;}\n  )&quot;, :offset 163, :ns &quot;core&quot;} {:command &quot;(defonce server\n         (run-jetty #'handler {:port 3000\n                    :join? false}))&quot;, :offset 93, :ns &quot;core&quot;}], :remote []}}</component>
+  <component name="RunManager" selected="Clojure Application.core">
+    <configuration name="REPL for rolodex" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false" temporary="true">
+      <module name="rolodex" />
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Local" activateToolWindowBeforeRun="false">
+      <setting name="replType" value="NREPL" />
+      <setting name="execution" value="LEININGEN" />
+      <module name="" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="fixLineNumbers" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="ClojureREPL" factoryName="Remote" activateToolWindowBeforeRun="false">
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
+      <setting name="replType" value="SOCKET" />
+      <setting name="configType" value="SPECIFY" />
+      <setting name="fixLineNumbers" value="false" />
+      <module name="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="core" type="ClojureScriptRunConfiguration" factoryName="Clojure Script" temporary="true">
+      <module name="rolodex" />
+      <setting name="path" value="$PROJECT_DIR$/src/core.clj" />
+      <setting name="namespace" value="" />
+      <setting name="execution" value="INTELLIJ" />
+      <setting name="profiles" value="" />
+      <setting name="aliases" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="$PROJECT_DIR$/src" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Clojure Application.core" />
+        <item itemvalue="Clojure REPL.REPL for rolodex" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1ec8150-0c42-468e-b412-9991b89680df" name="Default Changelist" comment="" />
+      <created>1579566595842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1579566595842</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1860" height="260" key="GridCell.Tab.0.bottom" timestamp="1579567812182">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="260" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1579567812182" />
+    <state width="1860" height="260" key="GridCell.Tab.0.center" timestamp="1579567812180">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="260" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1579567812180" />
+    <state width="1860" height="260" key="GridCell.Tab.0.left" timestamp="1579567812179">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="260" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1579567812179" />
+    <state width="1860" height="260" key="GridCell.Tab.0.right" timestamp="1579567812181">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1860" height="260" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1579567812181" />
+    <state x="514" y="344" key="com.intellij.ide.util.TipDialog" timestamp="1579569311520">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="514" y="344" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1579569311520" />
+  </component>
+</project>
